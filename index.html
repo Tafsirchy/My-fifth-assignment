@@ -420,7 +420,23 @@
         </div>
 
         <!-- call history -->
-        
+        <div
+          class="call-history w-full bg-white shadow-lg rounded-xl p-4 lg:w-[350px] lg:h-[165vh] lg:shadow-2xl lg:rounded-lg"
+        >
+          <div class="flex justify-between items-center">
+            <h1 class="font-semibold text-lg">
+              <i class="fa-regular fa-clock"></i> Call History
+            </h1>
+            <button
+              id="clear-btn"
+              class="bg-[#00A63E] text-white rounded-2xl px-6 py-1"
+            >
+              Clear
+            </button>
+          </div>
+
+          <ul id="history-list" class="mt-4 space-y-2 list-none p-0"></ul>
+        </div>
       </div>
     </main>
 
